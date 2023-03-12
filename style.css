@@ -1,0 +1,60 @@
+*{
+padding: 0;
+margin: 0;
+font-family: monospace;
+}
+ul {
+    list-style: none;
+    background: #228c4b;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2px;
+}
+ul li ul.dropdown li {
+      display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background-color: azure;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
